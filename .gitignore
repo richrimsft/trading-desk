@@ -1,0 +1,17 @@
+.env*
+*.key
+*.pem
+secrets*
+__pycache__/
+.venv/
+venv/
+node_modules/
+*.out
+heartbeat
+chrome-profile/
+# large raw data dumps
+polymarket-sim/copy/copies.jsonl
+polymarket-sim/copy/corrected.jsonl
+polymarket-sim/copy/wallets.jsonl
+pumpfun/_*.json
+pumpfun/*.json
